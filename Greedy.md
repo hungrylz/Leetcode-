@@ -4,7 +4,7 @@
 
 策略：  
     给剩余孩子里最小饥饿度的孩子分配最小的能满足要求的饼干
-    
+````
     class Solution {
     public int findContentChildren(int[] g, int[] s) {
         Arrays.sort(g);
@@ -22,4 +22,6 @@
         }
         return i;
     }
-}
+  }
+````
+
